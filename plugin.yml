@@ -1,5 +1,5 @@
 main: HelloWorld
-name: HelloWorld/HelloWorld
+name: HelloWorld\HelloWorld
 version: "1.0"
 author: Lanerori
 api: [2.0.0]
