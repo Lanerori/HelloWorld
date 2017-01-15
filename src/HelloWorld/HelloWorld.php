@@ -1,9 +1,12 @@
 <?php
 namespace HelloWorld
-use PocketMine/Plugins/PluginBase
-use PocketMine/Event/BlockPlaceEvent;
-use PocketMine/Event/Lister;
-class HelloWorld extends PluginBase inplemented Listner{public function 
+
+use pocketmine\plugin\PluginBase;
+use pocketmine\Event\BlockPlaceEvent;
+use pocketmine\event\Listener;
+
+class HelloWorld extends PluginBase implements Listner{
+public function 
 onEnable(){$this->getServer()->getPluginManager()->registerEvents($this,$this);
 }
 public function onPlace(BlockPlaceEvent $event){
